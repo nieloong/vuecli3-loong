@@ -1,0 +1,30 @@
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif:  \5fae\8f6f\96c5\9ed1, "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times,\5b8b\4f53, Simsun, serif;
+$font-family-simsun:      \5b8b\4f53, Simsun, sans-serif;
+
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:      16px !default;
+$font-size-small:     ceil(($font-size-base * 0.75)) !default;   // ~12px
+$font-size-normal:    ceil(($font-size-base * 0.875)) !default;  // ~14px
+$font-size-regular:   $font-size-base !default;      // ~16px
+$font-size-medium:    ceil(($font-size-base * 1.125)) !default;  // ~18px
+$font-size-large:     ceil(($font-size-base * 1.25)) !default;   // ~20px
+$font-size-xlarge:    ceil(($font-size-base * 1.5)) !default;    // ~24px
+$font-size-xxlarge:   floor(($font-size-base * 1.75)) !default;  // ~28px
+$font-size-xxxlarge:  floor(($font-size-base * 2.25)) !default;  // ~36px
+
+$font-weight-light:   300;
+$font-weight-regular: 400;
+$font-weight-bold:    600;
+
+$line-height-small:         1.2 !default;
+$line-height-base:          1.5 !default; // 24/16
+$line-height-large:         1.8 !default;
+
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px

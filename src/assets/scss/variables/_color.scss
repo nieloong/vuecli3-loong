@@ -1,0 +1,37 @@
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base: #000 !default;
+$gray-darker: lighten($gray-base, 13.5%) !default; // #222
+$gray-dark: lighten($gray-base, 20%) !default; // #333
+$gray: lighten($gray-base, 40%) !default; // #666
+$gray-light: lighten($gray-base, 53.5%) !default; // #888
+$gray-lighter: lighten($gray-base, 96%) !default; // * #f5f5f5
+
+$brand-primary: #417dc9 !default; // *
+$brand-accent: #ccb693 !default; // *
+$brand-info: #46a5f7 !default; // *
+$brand-success: #0a6155 !default; // *
+$brand-warning: #f87952 !default;
+$brand-danger: #d9534f !default;
+$brand-error: #ff0000 !default;
+
+$brand-weak: #9ebdce !default; // *
+$brand-muted: #b5b5b5 !default; // *
+$brand-disabled: $gray-lighter !default;
+
+//** Background color for `<body>`.
+$body-bg: #f5f5f5 !default;
+$white: #fff !default;
+
+//** Global text color on `<body>`.
+
+//** Global link style.
+$link-color: $gray-dark !default;
+$link-hover-color: $brand-primary !default;
+$link-hover-decoration: underline !default;
+
+//** Horizontal line color & Global border color
+$hr-color: lighten($gray-base, 89.5%) !default; // * #e4e4e4
+$border-color: lighten($gray-base, 89.5%) !default; // * #e4e4e4

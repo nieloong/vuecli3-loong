@@ -1,0 +1,51 @@
+//
+// Page, 基础页面
+// --------------------------------------------------
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+// Body reset
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $gray-dark;
+  background-color: $body-bg;
+}
+
+.page {
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+}
+
+// HTML主干结构：站点(site)、页面(page)
+// 页面结构：布局(区块、栅格)、模块组件(module)
+// 页面结构 *(必需)
+// --------------------------------------------------
+// .page *
+//     .page-header *
+//         .page-nav
+//     .page-container *
+//         .section *
+//             .section-header
+//                 .section-wrapper>.pure-u-1-1>.column-inner
+//                     .section-titile
+//                     .section-extra
+//             .section-container
+//                 .section-wrapper>.pure-u-1-1>.column-inner *
+//                     .module *
+//                         .module-header
+//                             .module-title
+//                             .module-extra
+//                         .module-container
+//     .page-footer *
+//     .page-pendant(左右两侧悬挂模块)

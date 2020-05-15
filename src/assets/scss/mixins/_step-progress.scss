@@ -1,0 +1,11 @@
+// step progress
+@mixin step-progress($count, $size, $margin) {
+  $step-progress-width: $size * ($count - 1) + $margin * ($count - 1);
+  .module-step-#{$count} {
+    .progress-bg {
+      // size*(x-1)+margin*(x-1)
+      width: $step-progress-width;
+      margin-left: $step-progress-width/-2
+    }
+  }
+}
