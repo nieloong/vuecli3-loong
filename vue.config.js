@@ -2,7 +2,7 @@
  * @Author: nieloong@aliyun.com
  * @Date: 2020-05-14 17:42:35
  * @LastEditors: Loong Nie
- * @LastEditTime: 2020-05-15 11:05:28
+ * @LastEditTime: 2020-05-15 22:13:28
  * @FilePath: \vuecli3loong\vue.config.js
  * @Descripttion:
  * @version:
@@ -22,6 +22,7 @@ module.exports = {
     config.resolve.alias
       .set("@", resolve("src"))
       .set("@a", resolve("src/assets"))
+      .set("@p", resolve("src/plugins"))
       .set("@v", resolve("src/views")); /* 别名配置 */
     config.optimization.runtimeChunk("single");
   },
